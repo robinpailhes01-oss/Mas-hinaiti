@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sable: #e9dfc9;
+  --color-tiare: #f8f3e8;
+  --color-encre: #1c221f;
+  --color-lagon: #0e4f4a;
+  --color-nuit: #08222a;
+  --color-crepuscule: #5e3122;
+  --font-display: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --font-body: "Figtree", ui-sans-serif, system-ui, sans-serif;
+  --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+body {
+  background: var(--color-sable);
+  color: var(--color-encre);
+  font-family: var(--font-body);
+  font-weight: 400;
+  line-height: 1.5;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: var(--font-display);
+  font-variation-settings: "SOFT" 50, "opsz" 144;
+  letter-spacing: -0.015em;
+}
+.font-display-text {
+  font-family: var(--font-display);
+  font-variation-settings: "SOFT" 30, "opsz" 36;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-lagon);
+  outline-offset: 4px;
+}
+.on-dark :focus-visible { outline-color: var(--color-tiare); }
+
+img { display: block; }
+
+/* underline that grows on hover for inline links */
+.lien {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  background-position: 0 100%;
+  transition: background-size 240ms var(--ease-expo);
+}
+.lien:hover { background-size: 0% 1px; background-position: 100% 100%; }
+
+.champ {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-encre) 40%, transparent);
+  border-radius: 0;
+  padding: 0.75rem 0;
+  font: inherit;
+  color: inherit;
+  min-height: 44px;
+}
+.champ:focus { outline: none; border-bottom-color: var(--color-lagon); border-bottom-width: 2px; }
+.champ::placeholder { color: color-mix(in srgb, var(--color-encre) 45%, transparent); }
+input[type="date"].champ { appearance: none; -webkit-appearance: none; }
