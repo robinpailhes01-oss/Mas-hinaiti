@@ -54,7 +54,7 @@ Le séjour a une chronologie réelle : arrivée 16 h (soleil, piscine) → soir 
 
 ## Élément signature
 
-La section « Une nuit au mas, heure par heure » : épinglée, les six moments défilent pendant que le fond passe du sable au lagon de nuit et revient au matin. Tout le reste de la page reste calme autour.
+La section « Une nuit au mas, heure par heure » : épinglée, les six moments défilent pendant que le ciel suit la lumière réelle d'une soirée d'été : fin d'après-midi dorée, coucher de soleil, crépuscule violet, nuit de lagon étoilée, aube, matin. Une lueur (soleil puis lune) se déplace avec les heures, les heures défilent comme une horloge, la progression est lissée par un ressort. Tout le reste de la page reste calme autour.
 
 ## Mobile
 

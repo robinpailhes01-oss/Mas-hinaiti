@@ -55,7 +55,6 @@ export const moments = [
       'Parking privé, parc de 2 000 m², piscine en saison. Il n’y a personne d’autre : la suite est la seule chambre du mas.',
     image: '/img/piscine-pin.webp',
     alt: 'La piscine du mas sous le grand pin, ciel bleu',
-    surface: '#e9dfc9',
     texteCouleur: '#1c221f',
   },
   {
@@ -65,7 +64,6 @@ export const moments = [
       'Baignoire balnéo double, 34 jets d’eau et d’air, plusieurs programmes de relaxation, lumière tamisée. Le champagne est déjà là.',
     image: '/img/bain-balneo-nuit.webp',
     alt: 'La baignoire balnéo éclairée en turquoise dans la suite',
-    surface: '#5e3122',
     texteCouleur: '#f8f3e8',
   },
   {
@@ -75,7 +73,6 @@ export const moments = [
       'Servi par un chef privé partenaire sur demande, dans le patio en mezzanine face au parc. Ou votre propre table, si vous préférez.',
     image: '/img/petit-dejeuner-vue.webp',
     alt: 'Table dressée dans le patio, vue sur les arbres du parc',
-    surface: '#1a2f36',
     texteCouleur: '#f8f3e8',
   },
   {
@@ -85,7 +82,6 @@ export const moments = [
       'Écran de 2,20 m sur 1,24 m, vidéoprojecteur 4K, Apple TV avec Netflix, Canal+ et Disney+. Lit Queen size.',
     image: '/img/ecran-cinema.webp',
     alt: 'L’écran de cinéma déployé face au lit, baignoire au premier plan',
-    surface: '#08222a',
     texteCouleur: '#f8f3e8',
   },
   {
@@ -94,7 +90,6 @@ export const moments = [
     texte: 'Servi dans le patio privatif, au soleil. Compris dans la nuit.',
     image: '/img/petit-dejeuner-patio.webp',
     alt: 'Le petit-déjeuner servi dans le patio, vue sur les toits et le jardin',
-    surface: '#dfe4dc',
     texteCouleur: '#1c221f',
   },
   {
@@ -103,7 +98,6 @@ export const moments = [
     texte: 'Le centre de Montpellier est à dix minutes. Vous étiez ailleurs.',
     image: '/img/patio-vue-parc.webp',
     alt: 'Vue depuis la porte-fenêtre du patio sur les toits et le parc',
-    surface: '#f8f3e8',
     texteCouleur: '#1c221f',
   },
 ]
